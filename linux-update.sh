@@ -26,7 +26,7 @@ Serverspeeder(){
 
 
 Bbr(){
-        wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+       wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 }
 ######################################################################
 Limits
@@ -51,8 +51,10 @@ echo "#####################################################################"
 #wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 Bbr
-chmod +x bbr.sh
-./bbr.sh
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 echo "###############################一键安装最新内核并开启 BBR 脚本 OK #################################"
 echo "#####################################################################"
 echo "#####################################################################"
+
+
