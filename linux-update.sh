@@ -26,7 +26,7 @@ Serverspeeder(){
 
 
 Bbr(){
-      wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
+      wget --no-check-certificate https://raw.githubusercontent.com/webapproot/Code_shell/master/shadowsocks-libev
 }
 ######################################################################
 Limits
