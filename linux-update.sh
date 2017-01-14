@@ -26,7 +26,7 @@ Serverspeeder(){
 
 
 Bbr(){
-       wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+      wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
 }
 ######################################################################
 Limits
@@ -51,13 +51,13 @@ Serverspeeder
 echo "###############################锐速安装一键包 -ok#################################"
 echo "#####################################################################"
 echo "#####################################################################"
-#wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+
 
 Bbr
-chmod +x shadowsocksR.sh
-./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+chmod +x shadowsocks-libev.sh
+./shadowsocks-libev.sh 2>&1 | tee shadowsocksR.log
 echo "###############################一键安装 SS #################################"
 echo "#####################################################################"
 echo "#####################################################################"
 
-
+/serverspeeder/bin/serverSpeeder.sh start
