@@ -13,23 +13,22 @@ Limits(){
         echo "* hard nofile 51200" >>/etc/security/limits.conf
 }
 
-
+###################################################################
 Sysctl(){
         mv /etc/sysctl.conf /root/
         wget -O /etc/sysctl.conf https://raw.githubusercontent.com/webapproot/f-/master/sysctl.conf
 }
-
+###############################################################
 Serverspeeder(){
         wget -N --no-check-certificate https://raw.githubusercontent.com/webapproot/Code_shell/master/serverspeeder-all.sh && bash serverspeeder-all.sh
-
 }
-
+#####################################################################
 
 
 Bbr(){
         wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 }
-
+######################################################################
 Limits
 ulimit -n 51200
 
