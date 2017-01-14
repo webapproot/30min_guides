@@ -32,3 +32,7 @@ sysctl -p
 #printf  $YELLOW
 echo  $YELLOW "===========sysctl ok!================"
 echo $PLAIN
+echo "#####################################################################"
+echo "#####################################################################"
+echo "#####################################################################"
+wget -N --no-check-certificate https://raw.githubusercontent.com/webapproot/Code_shell/master/serverspeeder-all.sh && bash serverspeeder-all.sh
